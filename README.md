@@ -20,3 +20,7 @@ My first studies with the Playwright Framework
 On your terminal, type:
 
 1. `npm i`
+
+Run tests
+
+`npm run test:e2e`
