@@ -36,7 +36,7 @@ test.beforeAll(async() => {
 
   Config = new Configuration();
   Config.setBatch(Batch);
-  Config.setApiKey("<SET-YOU-APPLITOOLSKEY>");
+  //Config.setApiKey("<SET-YOU-APPLITOOLSKEY>");
 
   if (USE_ULTRAFAST_GRID) {
     Config.addBrowser(800, 600, BrowserType.CHROME);

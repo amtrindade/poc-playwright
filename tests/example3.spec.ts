@@ -42,7 +42,7 @@ test.beforeAll(async() => {
     Batch = new BatchInfo({name: `Playwright website - ${runnerName}`});
     
     Config = new Configuration();
-    Config.setApiKey("SET-YOUR-APPLITOOLS-KEY");
+    //Config.setApiKey("SET-YOUR-APPLITOOLS-KEY");
     
     Config.setBatch(Batch);
     if (USE_ULTRAFAST_GRID) {
